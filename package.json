@@ -1,0 +1,39 @@
+{
+  "name": "envelopeencryption",
+  "version": "0.0.1",
+  "description": "aws kms envelope encryption example",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.125.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "prettyjson": "^1.2.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "demo": "./demo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjbischoff/kms-envelope-encryption-aws.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": [
+    "envelope",
+    "encryption",
+    "kms",
+    "aws"
+  ],
+  "author": "cjbischoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cjbischoff/kms-envelope-encryption-aws/issues"
+  },
+  "homepage": "https://github.com/cjbischoff/kms-envelope-encryption-aws#readme"
+}
